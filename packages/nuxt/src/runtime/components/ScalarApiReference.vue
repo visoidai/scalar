@@ -6,7 +6,8 @@ import {
   parse,
 } from '@scalar/api-reference'
 import { reactive, ref, toRaw } from 'vue'
-import type { Configuration } from '~/src/types'
+
+import type { Configuration } from '../../types'
 
 const props = defineProps<{
   configuration: Configuration
